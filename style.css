@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #3d3d3d;
+    color: #fff;
+}
+.header {
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/background_image.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 0px;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button {
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color:#fff;
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.lang_btn{
+    display:inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+.lang_btn img {
+    width: 10px;
+    margin-left: 10px;
+}
+.header_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header_content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header_content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.myemail {
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.myemail input {
+    flex:1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.myemail button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.feature {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    padding: 50px 12%;
+    margin-top: 7px;
+}
+.content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.text h1 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    margin-bottom: 10px;
+}
+.text h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.faq {
+    background-color: black;
+    width: 100%;
+    height: 155vh;
+    position: relative;
+    padding: 10px 12%;
+    margin-top: 7px;
+}
+.faq_content {
+    width: 100%;
+    padding: 50px 0px;
+}
+.faq_text {
+    align-items: center;
+    padding: 0 20px;
+    margin: auto;
+    text-align: center;
+}
+.faq_text h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.questions {
+    background-color: #3d3d3d;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+.qtext {
+    padding: 0 30px;
+}
+.questions h3 {
+    font-weight: 400;
+}
+.symbol {
+    padding: 0 30px;
+}
+.symbol p{
+    font-size: 50px;
+}
+.faq_sub {
+    margin-top: 50px;
+    /* align-items: center;
+    text-align: center; */
+    position: relative;
+    
+}
+.faq_sub1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.faq_sub h3{
+    font-weight: 400;
+    width: 600px;
+}
+/* .signup {
+    width: 600px;
+    padding: 0 100px;
+} */
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    padding: 50px 12%;
+    margin-top: 7px;
+}
+/* .footer_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0px;
+} */
+.footer h2 {
+    font-size: 17px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer h2 a{
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+}
+.footer .content {
+    align-items: flex-start;
+    padding: 20px 0;
+}
+.footer .lang_btn {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px ;
+}
+.copyright {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
